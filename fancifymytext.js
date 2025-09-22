@@ -28,10 +28,10 @@ function alertButton(){
 
 mooButton.addEventListener('click', mooify);
 function mooify(){
-    const chr = txtArea.value;
-    const length = txtArea.length;
+    let text = txtArea.value;
+    let parts = text.split(".");
+    text = parts.join("-mooo");
 
-    for(let i = 0; i < length; i++){
-        console.log(text[i]);
-    }
+    txtArea.value = text;
 }
+
