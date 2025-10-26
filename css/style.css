@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+/* navigation bar */
+.navbar {
+  position: sticky;
+  width: 100%;
+  margin: auto;
+}
+.navbar ul {
+  width: 100%;
+  list-style-type: none;
+  background-color: #000000;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+  text-align: center;
+}
+.navbar a:hover {
+  background-color: #303030;
+}
+.navbar li {
+  float: left;
+}
